@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Паспорт</title>
+<style>
+         a {
+            text-decoration: none;
+            color: #9FEE00;
+         }
+
+        .aa {
+            text-decoration: none;
+            color: #F47983;
+         }
+
+        .button {
+          color: #F47983;
+          text-align: center;
+
+          font-size: 14px;
+          cursor: pointer;
+
+          z-index: 1;
+          background-color: White;
+        }
+        .button_change {
+          border: none;
+          color: white;
+          padding: 8px 5px;
+          text-align: center;
+
+          text-decoration: none;
+          display: inline-block;
+          font-size: 14px;
+          margin: 4px 2px;
+          cursor: pointer;
+
+          background-color: #F47983;
+        }
+
+     </style>
+</head>
+
+<body>
+
+<div style="position:fixed; top:0%; left:0%; right:0%; z-index:2;">
+    <hr style='position:fixed; width:100%; top:-30px;' color="#F47983" size="120">
+    <div style="position:fixed; top:38px; right:100px" >
+        <a class="button" style="padding: 8px 15px;" href="../web_project/index.html">Главная</a>
+        <a class="button" style="padding: 8px 15px;" href="../web_project/menu.html">Меню</a>
+        <a class="button" style="padding: 8px 15px;" href="../web_project/order.html">Заказ</a>
+        <a class="button" style="padding: 8px 15px;" href="../web_project/recall.html">Отзыв</a>
+        <a class="button" style="padding: 8px 15px;" href="../web_project/add.html"><b>Доп</b></a>
+    </div>
+    <img style='position:fixed; left:-18px; top:-8px' height="120" src="../web_project/images/logo.png">
+</div>
+
+
+<div align="center" style="
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);">
+	<img align="center" style="position: absolute;" src="../web_project/images/passport_image.jpg">
+    <img align="center"  style="position: relative; top: 430px; left: 20px;" src="../web_project/images/my_photo.jpg" width="150px">
+    <span id="second_name" style="position: relative; top: 320px; left: 150px;">Гуськов</span>
+	<span id="first_name" style="position: relative; top: 377px; left: 98px;">Илья</span>
+    <span id="thirty_name" style="position: relative; top: 405px; left: 30px;">Михайлович</span>
+    <span id="sex" style="position: relative; top: 433px; left: -130px;">муж</span>
+    <span style="position: relative; top: 433px; left: -30px;">15.09.2006</span>
+    <button id="for_click" class="button_change" style="position: absolute; left:20%;top:345%;" >Нажмите здесь, чтобы изменить язык паспорта</button>
+</div>
+<p style="position:relative; top:1000px;">a</p>
+
+
+
+<script src="../web_project/js/rename.js"></script>
+
+<div style="position:fixed; top:93%; left:0%; right:0%; z-index:2;">
+    <hr style='position:absolute; width:100%;;' color="#F47983" size="100">
+    <p style="position:absolute; left:2%; top:7px; color: White" >email для связи с разработчиком: <a href="mailto:il.gus2006@yandex.ru" target="_blank"> il.gus2006@yandex.ru</a></p>
+    <p style="position:absolute; left:81%; top:7px; color: White" >телеграм разработчика: <a href="https://t.me/Maaaaaaaggic" target="_blank">ilya_work</a></p>
+</div>
+
+</body>
+</html>

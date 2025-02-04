@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Отзыв</title>
+
+    <style>
+           input {
+            border: 2px solid #F47983;
+            border-radius: 4px;
+         }
+
+
+         select {
+            border: 2px solid #F47983;
+            border-radius: 4px;
+         }
+
+         a {
+            text-decoration: none;
+            color: #9FEE00;
+         }
+
+        .button_1 {
+          border:none;
+          color: #F47983;
+          text-align: center;
+
+          font-size: 14px;
+          cursor: pointer;
+
+          z-index: 1;
+          background-color: White;
+        }
+        .button_2 {
+          border: 2px solid #C93756;
+          color: #C93756;
+          text-align: center;
+
+          font-size: 14px;
+          cursor: pointer;
+
+          z-index: 1;
+          background-color: White;
+        }
+
+        .back {
+        border: 5px solid #C93756;
+        color: #C93756;
+        width:40%;
+
+        font-size: 18px;
+
+        z-index: 1;
+        background-color: White;
+        }
+      </style>
+</head>
+<body>
+
+<div style="position:fixed; top:0%; left:0%; right:0%; z-index:2;">
+    <hr style='position:fixed; width:100%; top:-30px;' color="#F47983" size="120">
+    <div style="position:fixed; top:38px; right:100px" >
+        <a class="button_1" style="padding: 8px 15px;" href="../web_project/index.html">Главная</a>
+        <a class="button_1" style="padding: 8px 15px;" href="../web_project/menu.html">Меню</a>
+        <a class="button_1" style="padding: 8px 15px;" href="../web_project/order.html">Заказ</a>
+        <a class="button_1" style="padding: 8px 15px;" href="../web_project/recall.html"><b>Отзыв</b></a>
+        <a class="button_1" style="padding: 8px 15px;" href="../web_project/add.html">Доп</a>
+    </div>
+    <img style='position:fixed; left:-18px; top:-8px' height="120" src="../web_project/images/logo.png">
+</div>
+
+<div align="center" style='position:relative; width:100%; top:150px;'>
+    <form class='back' action="https://www.google.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+        <br/>
+        <br/>
+        <h3 align="center">Отзыв</h3>
+        <input type="hidden"  name="q" value="recall">
+        <p>Фамилия: <input type="Text" name="second_name" size=20  value="Гуськов"></p>
+        <p>Имя: <input type="Text" name="first_name" size=20  value="Илья"></p>
+        <p>Дата рождения: <input type="date" name="user_date_born"  value='2006-09-15'></p>
+        <p>Сет, который вы заказывали:
+            <select name="set_of_recall">
+                <OPTION value="samurai">Самурай</OPTION>
+                <OPTION value="cegun">Сёгун</OPTION>
+                <OPTION value="krest">Крестьянин</OPTION>
+            </select>
+        </p>
+        <p>Мобильный телефон для связи: <input type="tel" name="phone_number" size=20  value="+79300000000" ></p>
+        <p>Электронная почта для связи: <input type="email" name="email" size=20  value="e@gmail.com"></p>
+        <p>Ваша оценка:
+            <input type="Radio" name="recall_value" value="2">Плохо
+            <input type="Radio" name="recall_value" value="3">Нормально
+            <input type="Radio" name="recall_value" value="4">Хорошо
+            <input type="Radio" name="recall_value" value="5" checked>Отлично
+        </p>
+        <p>Дата отправки сообщения: <input type="date" name="user_date_send"  value='2024-11-06'></p>
+        <p>
+            <input type="Reset"  name="Reset"  value="Обновить">
+            <input type="Submit" name="submit"  value="Отправить">
+        </p>
+        <br/>
+        <br/>
+    </form>
+</div>
+
+<div style="position:fixed; top:93%; left:0%; right:0%; z-index:2;">
+    <hr style='position:absolute; width:100%;;' color="#F47983" size="100">
+    <p style="position:absolute; left:2%; top:7px; color: White" >email для связи с разработчиком: <a href="mailto:il.gus2006@yandex.ru" target="_blank"> il.gus2006@yandex.ru</a></p>
+    <p style="position:absolute; left:81%; top:7px; color: White" >телеграм разработчика: <a href="https://t.me/Maaaaaaaggic" target="_blank">ilya_work</a></p>
+</div>
+
+</body>
+</html>

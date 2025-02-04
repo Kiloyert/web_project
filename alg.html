@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Алгоритмическая задача</title>
+<style>
+         input {
+            border: 2px solid #F47983;
+            border-radius: 4px;
+         }
+
+         a {
+            text-decoration: none;
+            color: #9FEE00;
+         }
+
+        .aa {
+            text-decoration: none;
+            color: #F47983;
+         }
+
+        .button {
+          color: #F47983;
+          text-align: center;
+
+          font-size: 14px;
+          cursor: pointer;
+
+          z-index: 1;
+          background-color: White;
+        }
+
+        .button_2 {
+          border: 2px solid #C93756;
+          color: #C93756;
+          text-align: center;
+
+          font-size: 14px;
+          cursor: pointer;
+
+          z-index: 1;
+          background-color: White;
+        }
+
+        .center {
+        display: inline-block;
+        }
+
+        li {
+        text-align: left;
+        }
+
+        .back {
+        border: 5px solid #C93756;
+        color: #C93756;
+        width:40%;
+
+        font-size: 18px;
+
+        z-index: 1;
+        background-color: White;
+        }
+     </style>
+</head>
+
+<body>
+
+<div style="position:fixed; top:0%; left:0%; right:0%; z-index:2;">
+    <hr style='position:fixed; width:100%; top:-30px;' color="#F47983" size="120">
+    <div style="position:fixed; top:38px; right:100px" >
+        <a class="button" style="padding: 8px 15px;" href="../web_project/index.html">Главная</a>
+        <a class="button" style="padding: 8px 15px;" href="../web_project/menu.html">Меню</a>
+        <a class="button" style="padding: 8px 15px;" href="../web_project/order.html">Заказ</a>
+        <a class="button" style="padding: 8px 15px;" href="../web_project/recall.html">Отзыв</a>
+        <a class="button" style="padding: 8px 15px;" href="../web_project/add.html"><b>Доп</b></a>
+    </div>
+    <img style='position:fixed; left:-18px; top:-8px' height="120" src="../web_project/images/logo.png">
+</div>
+
+
+<div  align ='center' style='position:relative; width:100%; top:150px; z-index:-1;'>
+    <form class="back" action="https://www.google.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+        <h4>Определить значение функции Z = 1/(XY) при произвольных X и Y</h4>
+
+        <input type="hidden" name="q" value="answer">
+        <p>Значение переменной X: <input type="number" id="X_various" name="X_various" size="20" value="4"></p>
+        <p>Значение переменной Y: <input type="number" id="Y_various" name="Y_various" size="20" value="2"></p>
+        <p>Значение функции Z: <input type="number" id="Z_various" name="Z_various" size="20" value="0" readonly></p>
+        <button class='button_2' type="button" onclick="calculateZ()">Вычислить Z</button>
+        <input class='button_2' type="Submit" name="submit" value="Отправить">
+        <br />
+        <br />
+    </form>
+</div>
+<script src="../web_project/js/alg.js"></script>
+
+
+<div style="position:fixed; top:93%; left:0%; right:0%; z-index:2;">
+    <hr style='position:absolute; width:100%;;' color="#F47983" size="100">
+    <p style="position:absolute; left:2%; top:7px; color: White" >email для связи с разработчиком: <a href="mailto:il.gus2006@yandex.ru" target="_blank"> il.gus2006@yandex.ru</a></p>
+    <p style="position:absolute; left:81%; top:7px; color: White" >телеграм разработчика: <a href="https://t.me/Maaaaaaaggic" target="_blank">ilya_work</a></p>
+</div>
+
+</body>
+</html>
