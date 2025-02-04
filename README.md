@@ -1,1 +1,1 @@
-https://kiloyert.github.io/web_project_1/
+https://kiloyert.github.io/web_project/
